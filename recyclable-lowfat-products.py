@@ -29,7 +29,7 @@ Solution:
 
 Output:
 
-| product_id |
-| ---------- |
-| 1          |
-| 3          |
+    | product_id |
+    | ---------- |
+    | 1          |
+    | 3          |
