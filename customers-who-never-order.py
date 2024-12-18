@@ -48,22 +48,22 @@ def find_customers(customers: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFram
 
 Result:
 
-Input
-    Customers =
-    | id | name  |
-    | -- | ----- |
-    | 1  | Joe   |
-    | 2  | Henry |
-    | 3  | Sam   |
-    | 4  | Max   |
-    Orders =
-    | id | customerId |
-    | -- | ---------- |
-    | 1  | 3          |
-    | 2  | 1          |
+    Input
+        Customers =
+        | id | name  |
+        | -- | ----- |
+        | 1  | Joe   |
+        | 2  | Henry |
+        | 3  | Sam   |
+        | 4  | Max   |
+        Orders =
+        | id | customerId |
+        | -- | ---------- |
+        | 1  | 3          |
+        | 2  | 1          |
 
-Output
-    | Customers |
-    | --------- |
-    | Henry     |
-    | Max       |
+    Output
+        | Customers |
+        | --------- |
+        | Henry     |
+        | Max       |
