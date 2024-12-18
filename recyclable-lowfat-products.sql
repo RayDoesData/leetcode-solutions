@@ -26,9 +26,12 @@ Solution:
     FROM products
     WHERE low_fats = 'Y' and recyclable = 'Y';
 
-Output:
 
-Products =
+
+Result:
+
+Input
+    Products =
     | product_id | low_fats | recyclable |
     | ---------- | -------- | ---------- |
     | 0          | Y        | N          |
@@ -36,3 +39,9 @@ Products =
     | 2          | N        | Y          |
     | 3          | Y        | Y          |
     | 4          | N        | N          |
+
+Output
+    | product_id |
+    | ---------- |
+    | 1          |
+    | 3          |
