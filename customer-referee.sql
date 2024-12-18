@@ -27,6 +27,8 @@ Solution:
 
 
 
+Result:
+
 Input
     Customer =
     | id | name | referee_id |
@@ -37,7 +39,7 @@ Input
     | 4  | Bill | null       |
     | 5  | Zack | 1          |
     | 6  | Mark | 2          |
-    
+
 Output
     | name |
     | ---- |
